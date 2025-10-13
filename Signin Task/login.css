@@ -1,0 +1,70 @@
+
+.navbar{
+    position: fixed;
+    background-color:burlywood;
+    border: 1px solid burlywood;
+    width: 1920px;
+    left: -1px;
+    top:-2px;
+}
+
+
+.one{
+    position: absolute;
+    background-color:blue;
+    width: 350px;
+    height: 600px;
+    left: 400px;
+    bottom: -10px;
+    top:150px;
+
+}
+
+
+.two{
+    position: absolute;
+    background-color: yellow;
+    width: 450px;
+    height: 600px;
+    left: 350px;
+    bottom: 0px;
+    
+
+}
+
+.loginform{
+    position: absolute;
+    top: 170px;
+    left: 75px;
+}
+
+.loginform a{
+    text-decoration: none;
+    font-weight: 900;
+}
+.loginform a:hover{
+    color: orange;
+}
+
+button{
+    border-radius: 20px;
+
+}
+button:hover{
+    background-color: blue;
+    color: red;
+    transform: scale(1.17);
+}
+input{
+    border-radius: 25px;
+    width: 250px;
+    height: 30px;
+}
+input:hover{
+    background-color: lightcyan;
+}
+.login{
+    position: absolute;
+    top: 190px;
+    left: 70px
+}

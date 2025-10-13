@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background: aliceblue(201, 225, 246);
+    color: black;
+    line-height: 1.5px;
+    padding: 32px;
+}
+.container{
+    max-width:1100px;
+    margin: 0 auto;
+    box-shadow: 10px 6px 20px rgb(56, 55, 55);
+    border-radius: 12px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    
+}
+header{
+    width: 1100px;
+    background: aliceblue;
+    border-radius: 5px;
+    box-shadow:10px 6px 20px rgb(56, 55, 55);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 28px;
+    
+    
+}
+
+.logo{
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background: linear-gradient(200deg, pink,#5ce7c5);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-weight: 800;
+    color: #c1ca09;
+    font-size: 20px;
+    box-shadow: 10px 6px 20px rgba(51, 5, 235, 0.135);
+    margin-left: 0px;
+    
+    
+}
+.logo img{
+    margin-left:122px;
+    width: 54px;
+    height: 54px;
+    border-radius: 15px;
+}
+
+.name{
+    color: brown;
+    padding-left: 10px;
+    margin-left: 0; 
+}
+header nav{
+    display: flex;
+    gap: 25px;
+    align-items:center;
+    justify-content: center;
+    margin-right: 20px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: 800;
+    color: brown;
+}
+.navbar a:hover{
+    color:chocolate;
+    
+}
+.cta{
+    
+    background: greenyellow;
+    padding: 10px 14px;
+    border-radius: 12px;
+    color: #041226;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.cta:hover{
+    transform: scale(1.1);
+}
+
+.header_container{
+    margin-left:50px;
+    margin-top: 50px;
+    line-height: 20px;
+    color:rgb(107, 8, 25);
+    font-size: 30px;
+}
+.ContactForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight:lighter;
+
+}
+.ContactForm h1{
+    margin-left: 1px;
+}
+
+.f{
+    height: 35px;
+    width: 450px;
+}
+
+.msg{
+    height: 100px;
+    width: 450px;
+}
+.ContactForm button{
+    border-radius: 15px;
+    height: 20px;
+    width: 60px;
+
+}
+.ContactForm button:hover{
+    background-color: azure;
+    transform: scale(1.2);
+}

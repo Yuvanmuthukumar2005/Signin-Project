@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background: aliceblue(201, 225, 246);
+    color: black;
+    line-height: 1.5px;
+    padding: 32px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto ;
+}
+
+header{
+    width: 1100px;
+    height: 55px;
+    background: rgb(156, 201, 241);
+    border-radius: 5px;
+    box-shadow:10px 6px 20px rgb(56, 55, 55);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.navbar{
+    margin-left: 10px;
+    color: brown;
+}
+.signinform{
+    line-height: 37px;
+    background: lightblue;
+    width: 500px;
+    height: 600px;
+    border: 12px solid rgb(107, 244, 56);
+    margin-left: 290px;
+}
+.cta{
+    width: 440px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 18px;
+}
+.cta:hover{
+    background: rgb(208, 218, 220)
+}
+.signinform label{
+    margin-left: 10px;
+}
+.signinform button{
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.signinform button a{
+    text-decoration: none;
+    color: black;
+}
+.signinform button a:hover{
+    color: brown;
+}
+.signinform button:hover{
+    transition: ease;
+    background: rgb(237, 171, 30);
+    transform: scale(1.17);  
+}
